@@ -1,8 +1,35 @@
 body {
 text-align: center;
-background-color: #EBCBCB;
+background:#B3FEC2; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #0C541A, #fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #0C541A, #fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #0C541A, #fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #0C541A, #fff); /* Standard syntax */
 }
 
-.pia {
-background-image: image("pizza title.jng");
+
+
+.wow {
+line-height: normal;
+spacing: 5px;
+font-size: px;
+border: 5px solid #B3FEC2;
+line-height: 30px;
+width: 300px;
+margin:auto;
+background-color: hsla(0, 0%, 100%, 0.38);
+
+}
+
+h1 {
+font-size: 70px;
+background-color: hsla(0, 0%, 100%, 0.38);
+
+}
+
+h2 {
+
+  background-color: hsla(0, 0%, 100%, 0.38);
+  font-size: 50px;
+  color: red;
 }
